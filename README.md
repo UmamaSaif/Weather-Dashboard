@@ -92,6 +92,6 @@ Contributions to improve the app are welcome. Please follow these steps:
 
 ## Contact
 
-Your Name - [your-email@example.com]
+Your Name - [hafizabuzdar@gmail.com]
 
 Project Link: ([https://github.com/UmamaSaif/Weather-Dashboard)](https://github.com/UmamaSaif/Weather-Dashboard)]
