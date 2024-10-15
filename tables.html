@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="side-menu">
+            <div class="logo">
+                <img src="logo.png" alt="logo" width="70px">
+                <span>Weather App</span>
+            </div>
+            <a href="index.html">DASHBOARD</a>
+            <a href="tables.html" class="active">TABLES</a>
+        </nav>
+        <main>
+            <div class="top-bar">
+                <div class="search-container">
+                    <input type="text" id="cityInput" placeholder="SEARCH BAR">
+                    <button id="searchBtn">Get Weather</button>
+                </div>
+                <div class="user-profile">USER PROFILE</div>
+            </div>
+            <div class="content-area">
+                <div class="weather-table-container">
+                    <div class="table-header">
+                        <h2>TABLE</h2>
+                        <div class="filter-container">
+                            <label for="filterOptions" class="filter-label">Apply Filter:</label>
+                            <select id="filterOptions" class="filter-select">
+                                <option value="ascending">Sort Temperatures (Ascending)</option>
+                                <option value="descending">Sort Temperatures (Descending)</option>
+                                <option value="rain">Show Days with Rain</option>
+                                <option value="highestTemp">Show Day with Highest Temperature</option>
+                            </select>
+                            <button id="applyFilterBtn" class="filter-btn">Apply</button>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table id="weatherTable">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Temperature</th>
+                                    <th>Humidity</th>
+                                    <th>Wind Speed</th>
+                                    <th>Weather Condition</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Table rows will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination">
+                        <button id="prevPage" class="pagination-btn">&lt; Previous</button>
+                        <span id="currentPage" class="pagination-info">Page 1 of 5</span>
+                        <button id="nextPage" class="pagination-btn">Next &gt;</button>
+                    </div>
+                </div>
+                <div class="chatbot-widget">
+                    <div class="chat-bar">
+                        <input type="text" id="chatInput" placeholder="CHAT BAR FOR CHATBOT">
+                        <button id="sendBtn">Send</button>
+                    </div>
+                    <div class="answer-area" id="chatAnswers">
+                        ANSWER AREA FOR CHATBOT
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="tables-script.js"></script>
+</body>
+</html>

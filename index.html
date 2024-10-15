@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="side-menu">
+            <div class="logo">
+                <img src="logo.png" alt="logo" width="70px">
+                <span>Weather App</span>
+            </div>
+            <a href="#" class="active">DASHBOARD</a>
+            <a href="tables.html">TABLES</a>
+        </nav>
+        <main>
+            <div class="top-bar">
+                <div class="search-container">
+                    <input type="text" id="cityInput" placeholder="SEARCH BAR">
+                    <button id="searchBtn">Get Weather</button>
+                    <div class="unit-toggle">
+                        <input type="checkbox" id="unitToggle" class="toggle-checkbox">
+                        <label for="unitToggle" class="toggle-label">
+                            <span>°C</span>
+                            <span>°F</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="user-profile">USER PROFILE</div>
+            </div>
+            <div id="loadingSpinner" class="spinner"></div>
+            <div id="weatherWidget" class="weather-widget">
+                <h2>WEATHER DATA BASED ON CITY</h2>
+                <div id="weatherData"></div>
+            </div>
+            <div class="charts-container">
+                <div class="chart">
+                    <h3>VERTICAL BAR CHART</h3>
+                    <canvas id="temperatureChart"></canvas>
+                </div>
+                <div class="chart">
+                    <h3>DOUGHNUT CHART</h3>
+                    <canvas id="conditionsChart"></canvas>
+                </div>
+                <div class="chart">
+                    <h3>LINE CHART</h3>
+                    <canvas id="temperatureLineChart"></canvas>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    
+       
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+</body>
+</html>
