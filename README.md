@@ -1,9 +1,3 @@
-# Weather Dashboard App
-
-## Description
-
-This Weather Dashboard App is a comprehensive web application that provides users with detailed weather information, forecasts, and data visualization. It features a responsive design, interactive charts, and a chatbot for answering weather-related queries.
-
 ## Weather Dashboard App 🌤️
 
 A feature-rich web application providing real-time weather updates, interactive visualizations, and AI-powered chatbot support. Users can search for cities, view detailed weather forecasts, and interact with an AI assistant for weather-related queries.
