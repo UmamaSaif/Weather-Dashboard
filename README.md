@@ -23,7 +23,7 @@ A feature-rich web application providing real-time weather updates, interactive 
 
 1. Clone the repository:
    ```
-   git clone [your-repo-link]
+   git clone https://github.com/UmamaSaif/Weather-Dashboard.git
    ```
 2. Navigate to the project directory:
    ```
