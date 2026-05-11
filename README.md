@@ -85,6 +85,6 @@ Contributions to improve the app are welcome. Please follow these steps:
 
 ## Contact
 
-Umama Saif - [hafizabuzdar@gmail.com]
+Umama Saif - [umamasaif226@gmail.com]
 
 Project Link: ([https://github.com/UmamaSaif/Weather-Dashboard)](https://github.com/UmamaSaif/Weather-Dashboard)]
